@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -14,14 +14,14 @@
 		<div class="container-fluid">
 			<div class="row">
 				<marquee class="marq" bg-color="white" direction = "left" loop="" > 
-					<p>For Appointment Call Us on <i class="fa fa-phone" style="font-size:20px"></i><a class="contact" href="tel:9599778108">  +91 9599778108</a>
+					<p>For Appointment and Home Visit Call Us on <i class="fa fa-phone" style="font-size:20px"></i><a class="contact" href="tel:9599778108">  +91 9599778108</a>
 					</p>
 					</marquee>
 				</div>
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">	
 		<a class="navbar-brand" href="#">Rapid Fix</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,17 +33,17 @@
 			  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Treatment</a>
+				<a class="nav-link" href="#about-sec">About-Us</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Therapy</a>
+				<a class="nav-link" href="#Thearapy">Therapy</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Gallery</a>
-			  </li>
+				<a class="nav-link" href="#whydo">Need of Physiotherapy</a>
+        </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Contact Us</a>
-			  </li>
+				<a class="nav-link" href="#contact">Contact-Us</a>
+        </li>
 		  </ul>
 		</div>
 		</div>
@@ -61,7 +61,7 @@
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Rapid Fix</h1>
-                <p>Call us for any Support realted to Body Pain</p>
+                <p>Call us for any Support realted to Body Pain!Home Visit Facility Available!</p>
                 <p><a class="btn btn-md btn-primary" href="#" role="button">Call us  </a></p>
               </div>
             </div>
@@ -71,7 +71,7 @@
             <div class="container">
               <div class="carousel-caption ">
                 <h1>Rapid Fix.</h1>
-                <p>Broken Leg ? or Elbow or Shoulder Pain? "Click Below"</p>
+                <p>Broken Leg ? or Elbow or Shoulder Pain? "Click Below"! Home Visit Facility Available!</p>
                 <p><a class="btn btn-md btn-primary" href="#" role="button">Contact Us</a></p>
               </div>
             </div>
@@ -81,8 +81,8 @@
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>Rapid fix</h1>
-                <p>Ankle Sprain!  Wrist Pain ! We are Always there to help you</p>
-                <p><a class="btn btn-md btn-primary" href="#" role="button">Learn More</a></p>
+                <p>Ankle Sprain!  Wrist Pain ! We are Always there to help you! Home Visit Facility Available!</p>
+                <p><a class="btn btn-md btn-primary" href="#whydo" role="button">Learn More</a></p>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="container col-md-6 col-sm-12">
+    <div class="container col-md-6 col-sm-12" id="about-sec">
       <h3>About Us</h3>
 <p>We are specialize in providing Physiotherapy & Rehabilitation to our patients. We are in the service of not only treating the aches and pains, but also to provide you with the very best care and therapy that’s personalized
 for your recovery plan.</p>
@@ -118,7 +118,7 @@ soft tissue and joint Manipulations), Physiotherapy, European Acupuncture or Dry
 </p>   
       </div>
 
-        <div class="container col-md-6 col-sm-12">
+        <div class="container col-md-6 col-sm-12" id="whydo">
           <h3>When Do We Need Physiotherapy</h3>
           <ol class="gradient-list">
             <li>Cardiopulmonary conditions, such as chronic obstructive pulmonary disease (COPD), cystic fibrosis (CF) and post-myocardial infarction (MI).</li>
@@ -129,19 +129,45 @@ soft tissue and joint Manipulations), Physiotherapy, European Acupuncture or Dry
           </div>     
 </div> 
 </div>
-<div class="container-fluid">
+<div class="container-fluid" id="Thearapy">
   <div class="row">
-    <div class="container col-md-6 col-sm-12">
+    <div class="container col-md-6 col-sm-12"> 
         <h3>Therapy</h3>
-       
-    </div>   
-    <div class="container col-md-6 col-sm-12">
-      <h3>Contact Us</h3>
-  </div> 
+        <h5><ul> Our Expert Provide Advanced Thearapy Which are as follows:</ul></h5>
+        <ul id="list-tech">
+          <li>Dry needling</li>
+          <li>Pilates Training</li>
+          <li>Cupping Therapy</li>
+          <li>Thearaband Excercises</li>
+          <li>Spine Management</li>
+          <li>Geriatric Rehabilitation</li>
+          <li>Sports Injury Management</li>
+          <li>Pediatric Rehabilitation</li>
+          <li>Prenatal & Post Natal Physiotherapy</li>
+          <li>Electrotherapy</li>
+          <li>Kinesio Taping</li>
+          <li>Range of Motion Excercises</li>
+          <li>Soft Tussue Mobilization</li>
+          <li>Instrument Assisted Myofacail Release(IASTM)</li>
+        </ul>
+      </div>
+    <div class="container-fluid col-md-6 col-sm-12" id="contact">
+      <h3>Contact Information</h3>
+      <img src="./assets/main2.jpeg" class="img-fluid" alt="rapid-fix|home">
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Address: SaiKripa Building, Infort of Medical College, Gate No.1
+            Orai, Distt. Jalaun U.P 285001</strong></p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Phone: </strong><a class="btn btn-dark" href="tel://9599778108" role="button">9599778108</a></p>
+        </div>
+      </div>
+    </div> 
   </div>
 </div>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
