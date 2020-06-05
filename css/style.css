@@ -41,7 +41,6 @@ h3{
   text-align: center;
   font-weight: 500;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: underline;
   text-transform: uppercase;
   padding: 2px;
   color: yellowgreen;
@@ -103,7 +102,7 @@ h3{
   color:darkorange;
 }
 .carousel-caption p{
-  color:darkviolet;
+  color: black;
 }
 
 
